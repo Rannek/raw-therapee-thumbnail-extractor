@@ -4,7 +4,7 @@ This Python script automatically extracts the largest possible image from `.rtti
 
 ## How It Works
 
-The script scans the binary contents of a `.rtti` file for potential image dimension data. It attempts to read the image data based on these dimensions and, if successful, saves the largest valid image as a PNG file.
+The script scans the binary contents of all `.rtti` files for potential image dimension data. It attempts to read the image data based on these dimensions and, if successful, saves the largest valid image as a PNG file.
 
 ## Dependencies
 
